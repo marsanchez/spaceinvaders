@@ -1,0 +1,65 @@
+/*
+Verde: 6EC1A5;
+Verde claro: 9FBEA6;
+Salmon: F5D3A3;
+Rojo claro: FF9F88;
+Rojo oscuro: FB7878;
+ */
+body {
+	background-color: #9FBEA6;
+}
+
+#juego {
+	position: relative;
+	width: 800px;
+	height: 480px;
+	background-color: #F5D3A3;
+	overflow: hidden;
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+#navecita {
+	position: absolute;
+
+	bottom: 10px;
+	left: 50%;
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+.disparo {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	border-radius: 50% 50%;
+	background-color: #9FBEA6;
+}
+.enemigo {
+	position: absolute;
+	width: 100px;
+	height: 100px;
+}
+
+#mando{
+	float: left;
+	margin-top: 300px;
+	margin-left: 30px;
+}
+
+#disparo{
+	width: 100px;
+	float: right;
+	margin-top: 300px;
+}
+
+footer {
+	color: white;
+}
